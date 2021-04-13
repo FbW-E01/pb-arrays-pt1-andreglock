@@ -41,3 +41,43 @@ console.log("9:", worldCities);
 let revWorldCities = worldCities.reverse();
 
 console.log("10:", revWorldCities);
+
+worldCities[2] = 'Toronto';
+
+console.log("11:", worldCities);
+
+worldCities.splice(1, 0, "Washington");
+
+console.log("12:", worldCities);
+
+console.log("13:", worldCities.join(", "))
+
+const hello = "Hello World";
+const splitHello = hello.split("");
+const revSplitHello = splitHello.reverse();
+
+console.log("Bonus 1:", revSplitHello.join(""));
+
+let siblings = ["kevin", "Kate", "Randall"];
+
+console.log("Extra 1:", siblings);
+
+let parents = ["Jack", "Rebecca"];
+
+console.log("Extra 2:", parents);
+
+let allNames = siblings.concat(parents);
+
+console.log("Extra 3:", allNames);
+
+let pets = ["Audio", "Linda"];
+
+console.log("Extra 4:", pets);
+
+console.log("Extra 5:", pets.reverse());
+
+console.log("Extra 6:", parents[0]);
+
+parents[0] = "Nicky";
+
+console.log("Extra 7:", parents);
