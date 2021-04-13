@@ -2,9 +2,7 @@ let euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
 
 console.log("Original Array:", euroCities);
 
-const newCity = "Leipzig";
-
-euroCities[1] = newCity;
+const newCity = euroCities[1];
 
 console.log("1:", euroCities);
 
@@ -30,7 +28,7 @@ let asianCities = ["Shanghai", "Tokyo", "Almaty", "Kabul", "Marmaris", "Aleppo"]
 
 console.log("7:", asianCities);
 
-let cities = `${asianCities[2]}, ${asianCities[3]}, ${asianCities[4]}`;
+let cities = asianCities.splice(2, 3);
 
 console.log("8:", cities);
 
