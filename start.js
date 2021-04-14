@@ -4,7 +4,7 @@ console.log("Original Array:", euroCities);
 
 const newCity = euroCities[1];
 
-console.log("1:", euroCities);
+console.log("1:", newCity);
 
 euroCities[0] = "Berlin";
 
@@ -28,7 +28,7 @@ let asianCities = ["Shanghai", "Tokyo", "Almaty", "Kabul", "Marmaris", "Aleppo"]
 
 console.log("7:", asianCities);
 
-let cities = asianCities.splice(2, 3);
+let cities = asianCities.slice(1, 4);
 
 console.log("8:", cities);
 
